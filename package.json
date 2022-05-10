@@ -1,0 +1,18 @@
+{
+  "name": "mfe-study",
+  "version": "1.0.0",
+  "description": "A sample mfe study for your projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run --scope @mfe-study/* --parallel start",
+    "build": "lerna run --scope @dynamic-remotes/* build",
+    "serve": "lerna run --scope @dynamic-remotes/* --parallel serve",
+    "clean": "lerna run --scope @dynamic-remotes/* --parallel clean"
+  },
+  "keywords": [],
+  "author": "Jason",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
