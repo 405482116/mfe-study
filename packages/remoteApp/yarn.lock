@@ -1260,10 +1260,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-jason-mfe-lib@^0.0.1-alpha0:
-  version "0.0.1-alpha0"
-  resolved "https://registry.yarnpkg.com/jason-mfe-lib/-/jason-mfe-lib-0.0.1-alpha0.tgz#5304382233588aa7afad13f3896987a106fcdd4a"
-  integrity sha512-bBo+fMnU0XjNglWIqCR244uqPklChCj4S4AKHp6273Mc49qn/vsbh7GByG6XfxvKwRE2LCKK0mybQ1xJIxcDBw==
+jason-mfe-lib@0.0.1-alpha1:
+  version "0.0.1-alpha1"
+  resolved "https://registry.yarnpkg.com/jason-mfe-lib/-/jason-mfe-lib-0.0.1-alpha1.tgz#c284adc873c23e14ed0889a67ce1c8bfde9b881a"
+  integrity sha512-k3NDodL5X8lQ+Ff44mVmtdjW3iekB29jCSaP1QEgZAYB3bLNV+qy24DygNbCM5wLEnH+/ToqVbTS5Q+9NX5suw==
 
 jest-worker@^27.4.5:
   version "27.5.1"

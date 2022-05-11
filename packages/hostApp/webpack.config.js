@@ -14,6 +14,7 @@ module.exports = {
         port: 3001,
     },
     output: {
+        filename: '[name].bundle.js',
         publicPath: 'auto',
     },
     resolve: {
@@ -24,8 +25,8 @@ module.exports = {
             name: 'hostApp',
             shared: {
                 'jason-mfe-lib':{
-                    eager: true,
-                    singleton: true,
+                    eager: false,
+                    // singleton: true,
                 }
             },
         }),

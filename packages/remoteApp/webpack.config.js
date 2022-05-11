@@ -13,6 +13,7 @@ module.exports = {
         port: 3002,
     },
     output: {
+        filename: '[name].bundle.js',
         publicPath: 'auto',
     },
     resolve: {
@@ -28,6 +29,12 @@ module.exports = {
             shared: {
                 'jason-mfe-lib':{
                     eager: true,
+                    // import: false,
+                    // singleton: true,
+                    // strictVersion: true,
+                    // shareScope: 'default',
+                    // version: '0.0.1-alpha1',
+                    // requiredVersion: '^0.0.1-alpha1',
                 }
             },
         }),

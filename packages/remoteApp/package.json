@@ -16,6 +16,6 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
-    "jason-mfe-lib": "^0.0.1-alpha0"
+    "jason-mfe-lib": "0.0.1-alpha1"
   }
 }
